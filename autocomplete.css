@@ -1,4 +1,4 @@
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 @-moz-document url(chrome://browser/content/browser.xul) {
     richlistbox.autocomplete-richlistbox {
@@ -14,7 +14,7 @@
     }
 
     /*.ac-title,*/ .ac-separator, .ac-url, .ac-action {
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
 
     .autocomplete-richlistitem[collapsed="true"] {
@@ -45,7 +45,7 @@
     .autocomplete-richlistitem[type="favicon"] .ac-title,
     .autocomplete-richlistitem[type="bookmark"] .ac-title {
         order: 3;
-
+        font-size: 12px !important;
     }
 
     .ac-title-text {}
@@ -91,5 +91,4 @@
     .autocomplete-richlistitem[type="bookmark"] .ac-url-text{
         max-width: none !important;                     /* or initial*/
     }
-
 }
